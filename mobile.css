@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(26, 162, 167);
+}
+.icon{
+ text-align: center;
+ padding-top: 20px;
+}
+.icon button{
+    font-size: 55px;
+    width: 80px;
+    color:white;
+    background-color: rgb(26, 162, 167);
+    border:3px solid white ;
+    border-radius: 80px;
+    transition: 3s;
+}
+.icon button:hover{
+    transform: rotate(360deg) scale(1.4);
+       color: rgb(40, 241, 33);
+}
+select{
+    background-color:rgb(143, 201, 201) ;
+    color: rgb(250, 12, 44);
+    border: 1px solid white;
+    width: 350px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    display: none;
+}
+
+.home{
+    justify-content: center;
+    padding-top: 20px;
+    display: grid;
+    padding-bottom: 40px;
+}
+.home a{
+    text-align: center;
+    border: 1px solid rgb(238, 234, 234);
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+   font-size: 20px;
+  
+}
+.home a:hover{
+    box-shadow: 4px 4px 4px black;
+    color: rgba(13, 241, 59, 0.857);
+    background-color: rgb(54, 159, 162);
+}
+main{
+    background-image: url('https://th.bing.com/th/id/OIP.pH-UhwB0moUEZKUG9obMiwHaDq?pid=ImgDet&rs=1');
+}
+.name1{
+    padding-top: 130px;
+}
+.name1 h1{
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: rgb(206, 206, 63);
+    width: 60%;
+    height: 100px;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Dancing Script', 'cursive';
+}
+.name1 h1:hover{
+    box-shadow: 5px 5px 5px black;
+    color: cornsilk;
+    background-color: rgb(87, 35, 87);
+}
+.name2{
+    padding-top: 24px;
+}
+.name2 p{
+    margin: 0 auto;
+    padding-top: 9px;
+    background-color:rgb(30, 145, 110); 
+    color: white;
+    width: 50%;
+    height: 65px;
+    font-size: 20px;
+    text-align: center;  
+}
+.name2 p:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color:  rgb(87, 35, 87);
+}
+.order{
+    text-align: center;
+    padding-top:20px ;
+    padding-bottom: 100px;
+}
+.order button{
+ 
+      width: 170px;
+      height: 40px;
+      background-color: rgb(61, 129, 52);
+      color: white;
+}
+.order button:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: rgb(87, 35, 87);
+}
+.about h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+ }
+ .about{
+    background-color: rgb(209, 205, 190);
+     text-align: center;
+     padding-bottom: 20px;
+     
+ 
+ }
+ .about p{
+     width: 87%;
+     font-size: 19px;
+     margin: 0 auto;  
+ }
+
+ .card{
+    background-image: url('https://th.bing.com/th/id/OIP.G4kuVnRHSgOSFfivOyfMiQHaEn?w=279&h=180&c=7&o=5&dpr=1.25&pid=1.7');
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.card1{
+    width: 90%;
+    height: 280px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+    
+}
+.card0{
+    padding: 15px;
+}
+.card1:hover{
+    box-shadow: 10px 10px 10px rgb(214, 210, 210);
+}
+.card1 img{
+    width: 100%;
+    height: 160px;
+
+}
+.card h1{
+    padding-bottom: 5px;
+    background-color: rgb(42, 150, 158);
+    color: rgb(252, 249, 249);
+    font-family: 'Yellowtail','Dancing Script', 'cursive';
+}
+.card1 h4{
+    background-color: rgb(152, 184, 184);
+    padding: 9px;  
+}
+
+.contact{
+    background-image: url('https://th.bing.com/th/id/OIP.8JGdomgHrqhk4LjsuC_6VwHaDt?w=330&h=174&c=7&o=5&dpr=1.25&pid=1.7');
+   
+}
+.aboutt{
+     padding-left:60px;
+     padding-top: 30px;
+     
+}
+.aboutt h3{
+    color: rgb(3, 3, 3);
+    margin: 30px;
+    position: relative;
+}
+.aboutt h3::before{
+    content: '';
+    position: absolute;
+    top: calc(90% + 6px);
+    width:90%;
+    height: 10px;
+    background-color: rgb(95, 95, 161);
+    border-radius: 10px;
+}
+
+
+.review{
+    border-top: 1px solid rgb(154, 146, 146);
+    margin-top: 50px;
+}
+
+.input{
+    width: 70%;
+    height: 25px;
+    margin: 2px;
+    border: 1px solid rgb(13, 91, 9);
+    border-radius: 3px;
+}
+.spn{
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+section{
+    display: grid;
+    grid-template-columns:  70% 30%;
+    background-color: rgba(10, 88, 88, 0.4);
+}
+.map{
+     text-align: center;
+     padding-top: 35px;
+     padding-bottom: 20px;
+}
+.map iframe{
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    box-shadow: 10px 10px 10px black;
+}
+
+
+.icon-contact h1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 60px;
+    text-shadow: 5px 5px 5px rgb(41, 37, 37);
+    color: white;
+}
+
+.icon11{
+    text-align: center;
+    padding-top: 30px;
+}
+.iconX{
+    display: none;
+
+}
+.icon11 button{
+    font-size: 30px;
+    width:50px;
+    height: 40px;
+    margin:6px;
+    box-shadow: 5px 5px 5px rgb(58, 50, 50);
+}
+.icon11 button:hover{
+    box-shadow: 8px 8px 8px black;
+}
+
+footer{
+    background-color:rgba(22, 20, 20,0.7);
+}
+.footer1{
+    display: grid;
+    grid-template-columns:  auto auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 1px yellow
+}
+.num{
+    padding-bottom: 45px;
+}
+.footer1 a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  
+}
+.footer1 a:hover{
+    text-shadow:3px 3px 3px rgb(224, 219, 219);
+    color: red;
+}
+.nam button{
+    margin: 20px;
+}
+.nam button a{
+    color: rgb(12, 12, 12);
+    
+}
+
+.end{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom:20px;
+
+}
+.end h5{
+    color: white;
+    padding-left: 10px;
+}
+.end h4{
+    text-align: end;
+    padding-right: 10px;
+    color: white;
+}
